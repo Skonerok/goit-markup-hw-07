@@ -1,7 +1,6 @@
-.about__section {
+.about {
     padding-bottom: 94px;
 }
-
 .about__title {
     font-weight: 700;
     font-size: 36px;
@@ -11,17 +10,14 @@
     color: var(--header-color);
     margin-bottom: 50px;
 }
-
 .about__list {
     display: flex;
     gap: 30px;
 }
-
 .about__image {
     position: relative;
     flex-basis: calc((100% - 30px * 2) / 3);
 }
-
 .about-overlay__box {
     position: absolute;
     bottom: 0;
@@ -30,7 +26,6 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
 }
-
 .about-overlay__text {
     font-weight: 700;
     font-size: 14px;

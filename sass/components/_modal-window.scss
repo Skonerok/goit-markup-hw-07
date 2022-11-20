@@ -7,13 +7,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 300ms linear, visibility 300ms linear;
 }
-
 .backdrop--is-hidden {
     opacity: 1;
     visibility: hidden;
     pointer-events: none;
 }
-
 .modal {
     position: absolute;
     top: 50%;
@@ -31,7 +29,6 @@
     transform: scale(0.25);
 }
 }
-
 .modal__btn--close {
     position: absolute;
     top: 8px;
